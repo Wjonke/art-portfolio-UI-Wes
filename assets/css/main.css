@@ -117,7 +117,7 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #585858;
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-family: 'kodchasan', sans-serif;
 		font-size: 16pt;
 		font-weight: 300;
 		line-height: 1.75;
@@ -270,16 +270,14 @@ input, select, textarea {
 		background: rgba(144, 144, 144, 0.075);
 		border-radius: 4px;
 		border: solid 1px #c9c9c9;
-		font-family: "Courier New", monospace;
-		font-size: 0.9em;
+		font-family: 'kodchasan', sans-serif;		font-size: 0.9em;
 		margin: 0 0.25em;
 		padding: 0.25em 0.65em;
 	}
 
 	pre {
 		-webkit-overflow-scrolling: touch;
-		font-family: "Courier New", monospace;
-		font-size: 0.9em;
+		font-family: 'kodchasan', sans-serif;		font-size: 0.9em;
 		margin: 0 0 2em 0;
 	}
 
@@ -2661,7 +2659,7 @@ input, select, textarea {
 				}
 
 				.tiles article > a:hover {
-					color: #ffffff !important;
+					color: #ffffffdc !important;
 				}
 
 				.tiles article > a h2 {
@@ -2685,27 +2683,27 @@ input, select, textarea {
 					}
 
 			.tiles article.style1 > .image:before {
-				background-color: #A1B7DD;
+				background-color: #B3F7FF;
 			}
 
 			.tiles article.style2 > .image:before {
-				background-color: #9AB5E5;
+				background-color: #B3F7FF;
 			}
 
 			.tiles article.style3 > .image:before {
-				background-color: #7197DA;
+				background-color: #B3F7FF;
 			}
 
 			.tiles article.style4 > .image:before {
-				background-color: #497ACF;
+				background-color: #B3F7FF;
 			}
 
 			.tiles article.style5 > .image:before {
-				background-color: #3060B6;
+				background-color: #B3F7FF;
 			}
 
 			.tiles article.style6 > .image:before {
-				background-color: #285199;
+				background-color: #B3F7FF;
 			}
 
 			body:not(.is-touch) .tiles article:hover > .image {
@@ -2807,8 +2805,13 @@ input, select, textarea {
 
 /* Header */
 
+
+
+
+
+
 	#header {
-		padding: 8em 0 0.1em 0 ;
+		padding: 2em 0 0.1em 0 ;
 	}
 
 		#header .logo {
@@ -2825,7 +2828,7 @@ input, select, textarea {
 
 			#header .logo > * {
 				display: inline-block;
-				vertical-align: middle;
+				vertical-align: top;
 			}
 
 			#header .logo .symbol {
@@ -2839,8 +2842,8 @@ input, select, textarea {
 				}
 
 		#header nav {
-			position: fixed;
-			right: 2em;
+			position: absolute;
+			right: 3.75em;
 			top: 2em;
 			z-index: 10000;
 		}
